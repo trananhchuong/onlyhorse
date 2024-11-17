@@ -1,9 +1,10 @@
+import HeroSection from "./HeroSection";
 
 const AuthScreen = () => {
-	return (
-		<h1 className='text-primary'>
-			AuthScreen
-		</h1>
-	);
+  return (
+    <div className="flex flex-col">
+      <HeroSection />
+    </div>
+  );
 };
 export default AuthScreen;
