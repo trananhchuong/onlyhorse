@@ -1,7 +1,7 @@
 "use client";
 import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs/components";
-import { Button } from "@/components/ui/button";
 import { ModeToggle } from "../auth-screen/ModeToggle";
+import { Button } from "../../ui/button";
 
 const HomeScreen = () => {
   return (

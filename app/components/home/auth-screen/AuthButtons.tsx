@@ -1,10 +1,10 @@
 "use client";
-import { Button } from "@/components/ui/button";
 import {
   RegisterLink,
   LoginLink,
 } from "@kinde-oss/kinde-auth-nextjs/components";
 import { useState } from "react";
+import { Button } from "../../ui/button";
 
 const AuthButtons = () => {
   const [loading, setLoading] = useState(false);

@@ -1,5 +1,5 @@
-import AuthScreen from "@/components/components/home/auth-screen/AuthScreen";
-import HomeScreen from "@/components/components/home/home-screen/HomeScreen";
+import AuthScreen from "@/app/components/home/auth-screen/AuthScreen";
+import HomeScreen from "@/app/components/home/home-screen/HomeScreen";
 import { Metadata } from "next";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 
